@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Software - ESPE</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+         <!-- Imagen del icono/logo -->
+        <img src="img/espelogo.png" width="250" height="200" alt="ESPE - Latacunga" class="logo-icono">
+        <p><strong>Club de Software - ESPE</strong></p>
+    </header>
+
+    <hr>
+
+    <!-- HERO SECTION -->
+    <section>
+        <h1>Si quieres hacer nuevos amigos y mejorar tus habilidades como programador al mismo tiempo.</h1>
+        <h1>¡ESTE ES TU LUGAR!</h1>
+        <p>Estás a un click de conocer personas que te impulsarán a ser mejor...</p>
+
+        <button type="button">ÚNETE A NOSOTROS</button>
+        <button type="button">SOBRE NOSOTROS</button>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN ¿QUÉ HACEMOS EN EL CLUB? -->
+    <section>
+        <h2>¿Qué hacemos en el club?</h2>
+
+        <div>
+            <h3>Conectarnos con el mundo</h3>
+            <p>Programación web</p>
+        </div>
+
+        <div>
+            <h3>Formar conexiones</h3>
+            <p>Reforzamiento de habilidades de comunicación</p>
+        </div>
+
+        <div>
+            <h3>Reforzar habilidades esenciales</h3>
+            <p>DevOps, Servidores y Bases de Datos</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- SECCIÓN NUESTROS PROYECTOS -->
+    <section>
+        <h2>Nuestros Proyectos</h2>
+
+        <div>
+            <img src="IMG/github.png" alt="Imagen del Proyecto 1">
+            <h3>Colaboración en proyectos de ingeniería inversa</h3>
+            <p>Hemos ayudado en el desarrollo de varios emuladores</p>
+        </div>
+
+        <div>
+            <img src="IMG/exponer.jpg" width="300" height="200" alt="Imagen del Proyecto 2">
+            <h3>Conferencias</h3>
+            <p>Hemos visitado más de 10 colegios compartiendo nuestra pasión por el software</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- FORMULARIO DE INSCRIPCIÓN -->
+    <section>
+        <h2>Formulario de Inscripción</h2>
+        <p>Ingresa tus datos y envíalos, revisaremos tu solicitud tan pronto como podamos</p>
+        <form action="/enviar" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+</body>
+
+</html>
